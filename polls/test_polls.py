@@ -24,7 +24,6 @@ if django.VERSION < (1,3):
     raise Exception("Needs Django 1.3+, becuase it uses unittest2")
 
 from django.test import TestCase
-from test_polls import *
 
 ## check whether the models even exist yet!
 models_importable = False
